@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TUR</title>
+
+    <style>
+
+        * {
+            margin: 0px;
+            text-align: center;
+            box-sizing: border-box;
+            
+        }
+
+        .topo {
+            background-color: rgba(0, 0, 0, 0.65);
+            font-size: 40px;
+            color: #F2CB05;         
+            font-weight: bold;
+        }
+
+        .rio {
+            background-color: #F29F05;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 15px;
+            height: 420px;
+        }
+
+        .sp {
+            background-color: #F28705;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 10px;
+            font-style: italic;
+            height: 420px;
+        }
+
+        .jp {
+            background-color: #F23030;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 20px;
+            font-style: bold;
+            height: 480px;
+        }
+
+        .rodape {
+            background-color: black;
+            color: white;
+            height: 50px;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="topo">
+        <h1>HTML Tur</h1>
+        <p class="textotopo">Sua agência de viagens online</p>
+    </div>
+    <div class="rio">
+        <h1>Rio de Janeiro</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn9ug9cgWms5sOWbRRVHEMIW4YT8RCpKiRIkyignyyvA&s" alt="cristo redentor" width="400" height="200">
+        <form>
+            <label for="ida1">Data de partida:</label>
+            <input type="date" name="ida1" id="ida1"><br><br>
+            <label for="volta1">Data de retorno:</label>
+            <input type="date" name="volta1" id="volta1"><br><br>
+            <label for="qtdp1">Quantidade de passageiros:</label>
+            <input type="number" name="qtdp1" id="qtdp1"><br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Cancelar">
+        </form>
+    </div>
+    <div class="sp">
+        <h1>São Paulo</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNMd4v0r0GgFU4zODWXhQcPZEQCApx9zYBmUcq1531ZA&s" alt="São Paulo" width="400" height="200">
+        <form>
+            <label for="ida2">Data de partida:</label>
+            <input type="date" name="ida2" id="ida2"><br><br>
+            <label for="volta2">Data de retorno:</label>
+            <input type="date" name="volta2" id="volta2"><br><br>
+            <label for="qtdp2">Quantidade de passageiros</label>
+            <select name="qtdp2" id="qtdp2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select><br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Cancelar">
+        </form>
+    </div>
+    <div class="jp">
+        <h1>João Pessoa</h1>
+        <img src="https://lavanderia60minutos.com.br/wp-content/uploads/2022/08/1.jpg" alt="João Pessoa" width="400" height="200">
+        <form>
+            <label for="ida3">Data de partida:</label>
+            <input type="date" name="ida3" id="ida3"><br><br>
+            <label for="volta3">Data de retorno:</label>
+            <input type="date" name="volta3" id="volta3"><br><br>
+            <label for="qtdp3">Quantidade de passageiros:</label> <br>
+            <input type="radio" id="qtdp3" name="qtdp3"> 1 <br>
+            <input type="radio" id="qtdp3" name="qtdp3"> 2 <br>
+            <input type="radio" id="qtdp3" name="qtdp3" checked> 3 <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Cancelar">
+        </form>
+    </div>
+    <div class="rodape">
+        <p>Reserve um hotel: 
+            <a href="#">Clique aqui</a></p>
+    </div>
+</body>
+</html> 
