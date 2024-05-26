@@ -1,5 +1,99 @@
-@charset "UTF-8"
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
 
 .cabeçalho{
     background-image: url(https://www.portalfolhadaterra.com.br/wp-content/uploads/2020/10/Diesel-productv2-uno-home-GameName_Store_Landscape_2560x1440-2560x1440-5195e8a3e06d672f97a1ee49ecea59027c14cae4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.titulo {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: ;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.233);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.445);
+}
+
+.navegação ul {
+    background-image: linear-gradient(to right, yellow, green, blue, red);
+    padding: px;
+    margin: 0px;
+    list-style-type: none;
+    
+}
+
+.navegação a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: flex;
+    padding: 15px;
+}
+
+.navegação a:hover {
+    color: yellow;
+    background-color: red;
+}
+
+
+
+.alinhar {
+    display: flex;
+}
+
+.flex1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: 1px dashed black;
+    border-radius: 15px;
+    
+}
+
+.flex2 {
+    display: flex;
+    border: 1px dashed black;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.rdplink {
+    text-align: center;
+    width: 95vw;
+    background-image:radial-gradient(circle, yellow, green, blue, red);
+}
+
+.rdplink a {
+    color: black;
+}
+
+.rdptext {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.rdpgeral {
+    display: flex;
 }
