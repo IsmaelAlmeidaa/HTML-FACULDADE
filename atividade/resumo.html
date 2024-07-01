@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+        box-sizing: border-box;
+        border-radius: 20px;
+        }
+        .ladoalado{
+        display: flex;
+        }
+        .cabeçalho {
+        background-image: linear-gradient(30deg, cyan, lightblue, blue,
+        darkblue);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        height: 100px;
+        }
+        
+        .principal {
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        }
+        .alinhar {
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+        }
+        .artigo01 {
+        background-color: lightblue;
+        height: 200px;
+        width: 100%;
+        border: 1px solid black;
+        text-align: center;
+        }
+        
+        .artigo02 {
+        background-color: blue;
+        height: 200px;
+        width: 100%;
+        border: 1px solid black;
+        text-align: center;
+        }
+        .artigo03 {
+        background-color: darkblue;
+        height: 200px;
+        width: 100%;
+        border: 1px solid black;
+        text-align: center;
+        color: white;
+        }
+        .coluna {
+        width: 100%;
+        padding: 5px;
+        }
+        .rodapé {
+        background-image: radial-gradient(circle, cyan, lightblue, blue, darkblue);
+        text-align: center;
+        border: 1px solid black;
+        }
+        </style>
+</head>
+<body>
+    <header class="cabeçalho">
+        <h1>Desafio</h1>
+        </header>
+        <main class="principal">
+        <section class="coluna">
+        <article class="artigo01"><h2>Texto 01</h2></article>
+        <article class="artigo02"><h2>Texto 03</h2></article>
+        <article class="artigo03"><h2>Texto 05</h2></article>
+        </section>
+        <section class="coluna">
+        <article class="artigo01"> <h2>Texto 02</h2></article>
+        <article class="artigo02"><h2>Texto 04</h2></article>
+        <article class="artigo03"><h2>Texto 06</h2></article>
+        </section>
+        </main>
+        <footer class="rodapé">
+        <h2>Volte sempre!</h2>
+        </footer>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Livraria</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        thead {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+        tfoot {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .description {
+            background-color: #FFD700;
+        }
+        .price {
+            background-color: #FFA500;
+        }
+        .total {
+            background-color: #FF6347;
+        }
+        .tfoot-total {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Itens</th>
+                <th>Descrição</th>
+                <th>Preço Unitário</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Livro de Ficção</td>
+                <td class="description">Um romance emocionante</td>
+                <td class="price">R$ 30,00</td>
+                <td class="total">R$ 60,00</td>
+            </tr>
+            <tr>
+                <td>Caderno Espiral</td>
+                <td class="description">Caderno de 200 folhas</td>
+                <td class="price">R$ 15,00</td>
+                <td class="total">R$ 45,00</td>
+            </tr>
+            <tr>
+                <td>Caneta Esferográfica</td>
+                <td class="description">Caneta azul</td>
+                <td class="price">R$ 2,00</td>
+                <td class="total">R$ 4,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="tfoot-total">Total</td>
+                <td class="total">R$ 109,00</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

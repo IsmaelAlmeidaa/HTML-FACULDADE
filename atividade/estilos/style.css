@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.cabeçalho {
+    background-image: url(https://www.mcdonalds.com/content/dam/sites/uk/nfl/publications/best-burger-pbhalf.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 98vw;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.titulo {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.233);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.445);
+}
+
+.navegação ul {
+    list-style-type: none;
+    background-color: goldenrod;
+    padding: 5px;
+}
+
+.navegação a {
+    color: khaki;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(82, 69, 37, 0.137);
+}
+
+.alinhamento {
+    display: flex;
+}
+
+.navegação a:hover {
+    background-color: rgb(77, 56, 3);
+    color: white;
+}
+
+.flex1 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.img1 {
+    border: 3px solid rgba(94, 71, 13, 0.747);
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+
+}
+
+.texto1 {
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.199);
+    padding: 5px;
+}
+
+.img2 {
+    border: 3px solid rgba(94, 71, 13, 0.747);
+    background-image: radial-gradient(yellow, orange, red);
+    align-items: center;
+    border-radius: 30px;
+}
+
+.a6 {
+    text-align: center;
+    background-image: linear-gradient(to bottom, red, orange, yellow);
+}
+
+.ladoalado2 {
+    display: flex;
+}
+
+.combo2 {
+    background-image: url(https://media.moneytimes.com.br/uploads/2023/11/mcdonalds-blackfriday.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 98vw;
+}
+
+footer {
+    background-color:dimgrey;
+    color: gold;
+}
